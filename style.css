@@ -6,9 +6,34 @@ body{
     height: 100vh;    
 }
 
-.container-box{
-    width: 400px;
+.container-box{    
+    padding: 1.2rem;
     background-color: #222;
     border: 10px solid #ffffff;
     text-align: center;
+    color: #ffffff;
+}
+.input-box{
+    display: block;
+    background-color: #ffffff;
+    padding: 0.6rem 1rem;
+    border: 1px solid #ffffff;
+    width: 90%;
+    margin: 10px auto;
+}
+.clear{
+    clear: both;
+}
+.cal-btn{
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    color: #ffffff;
+    margin: 5px;
+    background-color: #555555;
+    border: 1px solid #555555;
+    cursor: pointer;
+}
+.solve{
+    width: 100%;
 }
